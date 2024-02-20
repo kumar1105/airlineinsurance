@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+.container{
+	background-image: url(https://avioninsurance.com/wp-content/uploads/2020/12/gulfstream-flying.jpg);
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.heading{
+	color:white;
+	font-style: italic;
+	font-weight: bold;
+}
+.styled-input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+label {
+  margin-bottom: 5px;
+ font-size: 30px;
+}
+
+.styled-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.styled-button:hover {
+  background-color: #45a049;
+}

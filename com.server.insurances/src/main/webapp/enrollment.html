@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Jet Insurance detials</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<style>
+		body{
+			background-image: url("https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708214400&semt=ais");
+		}
+	.image{
+	
+		width:90px;
+		height:80px;
+		border: none;
+	}
+	
+	h1{
+		text-align: center;
+		color: white;
+	}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+
+.navbar img {
+    max-width: 100px; 
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+
+.navbar ul li a {
+    color: #fff; 
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition:0.5 ease;
+}
+
+ul li a:hover{
+	background-color:white;
+	color: black;
+}
+	
+.text-block {
+  color: white;
+  bottom: 120px;
+  padding: 20px;
+  margin:5px;
+  box-shadow: 0 0 5px 0 ; 
+	  background: inherit; 
+  backdrop-filter: blur(10px);
+}
+
+.box{
+		border:1px solid white;
+		color: white;
+		padding: 10px 5px;
+		width: 40%;
+	}
+   row .image{
+		width: 50%;
+	}
+    section {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  .wrapper {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: #000;
+    box-shadow: 0 0 50px #0ef;
+    border-radius: 20px;
+    padding: 40px;
+    overflow: hidden;
+    
+  }
+  .wrapper:hover {
+    animation: animate 1s linear infinite;
+  }
+  .form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+  h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+  }
+  .input-group {
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #fff;
+  }
+  .input-group label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .input-group input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .input-group input:focus~label,
+.input-group input:valid~label {
+  top: -5px;
+}
+button {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #0ef;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+}
+
+
+.navbar img {
+    max-width: 100px; 
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+
+.navbar ul li a {
+    color: #fff; 
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition:0.5 ease;
+}
+
+ul li a:hover{
+	background-color:white;
+	color: black;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Welcome to Innovators Insurance Company</h1>
+	</header>
+	<nav class="navbar ">
+		<div class="container-fluid">
+			<a href="index.html"><img src="https://cdn.sanity.io/images/kts928pd/production/ee3083d0f74dedb2227ce3b73b66df9d0280f073-731x731.png"
+				class="image" alt="Innovators Logo"></a>
+			<ul class="nav justify-content-end">
+				<li><a href="about.html">About Us</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Enrollment
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item text-dark" href="cargoen.html">Cargo Insurance</a>
+						<a class="dropdown-item text-dark" href="Passenger.html">Passengers Insurance</a>
+						<a class="dropdown-item text-dark" href="jetenrolment.html">Jets Insurance</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Claim
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+						<a class="dropdown-item text-dark" href="cargoclaim.html">Cargo Insurance</a>
+						<a class="dropdown-item text-dark" href="Passengerclaim.html">Passengers Insurance</a>
+						<a class="dropdown-item text-dark" href="jetclaim.html">Jets Insurance</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Other
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+						<a class="dropdown-item text-dark" href="healtheno.html">Health register</a>
+						<a class="dropdown-item text-dark" href="healthclaim.html">health Claim</a>
+						
+					</div>
+				</li>
+				
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="profile.html">My Profile</a></li>
+			</ul>
+		</div>
+	</nav>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+	<section>
+		<div class="wrapper">
+            <div class="form-wrapper sign-in">
+              <form action="createpassengerServlet" method="Post">
+                <h2>Enrollment Details</h2>
+                <div class="input-group">
+                  <input type="text" name="Aviation_id" required>
+                  <label for="">Aviation id</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" name="Plane_id" required>
+                  <label for="">Plane id</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" name="Company_name" required>
+                  <label for="">Company_name</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" name="Amount" required>
+                  <label for="">Amount</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" name="Tenure" required>
+                  <label for="">Tenure</label>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+	</section>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url("https://e0.pxfuel.com/wallpapers/130/33/desktop-wallpaper-blue-plain-plain-navy-blue-thumbnail.jpg");
+}
+
+.main { 
+    background-color: #fff; 
+    border-radius: 15px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    padding: 10px 20px; 
+    transition: transform 0.2s; 
+    width: 500px; 
+    text-align: center; 
+    background: rgba(255, 255, 255, 0.1);  
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+        backdrop-filter: blur(10px);
+} 
+label { 
+    display: block; 
+    margin-top: 10px; 
+    margin-bottom: 5px; 
+    text-align: left; 
+    color: #555; 
+    font-weight: bold; 
+} 
+input { 
+    
+    margin-bottom: 15px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+} 
+.heading{
+	color: aqua;
+}

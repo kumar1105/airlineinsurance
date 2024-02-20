@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Update Success</title>
+    <style>
+        .success-message {
+            display: none;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Your content goes here -->
+
+    <div class="success-message" id="successMessage">
+        Data successfully updated!
+    </div>
+
+    <!-- Example JavaScript to toggle the success message -->
+    <script>
+        // Function to show the success message
+        function showSuccessMessage() {
+            var successMessage = document.getElementById('successMessage');
+            successMessage.style.display = 'block';
+        }
+
+        // You can call this function after a successful update operation
+        // For example, after an AJAX request or form submission
+        showSuccessMessage();
+    </script>
+
+</body>
+</html>

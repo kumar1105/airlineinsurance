@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="claim.css">
+<title>passenger claim</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<style>
+body{
+background-image:url('https://easbcn.com/wp-content/uploads/2020/07/256409_1-1000x423.jpg');
+background-repeat : no-repeat;
+background-size : 100% 100%;
+background-attachment: fixed;
+text-align: center;
+}
+</style>
+<nav class="navbar  bg-light">
+		<div class="container-fluid">
+			<a href="index.html"><img src="https://cdn.sanity.io/images/kts928pd/production/ee3083d0f74dedb2227ce3b73b66df9d0280f073-731x731.png"
+				class="img" style="height: 80px; width: 80px;" alt="Innovators Logo"></a>
+			<ul class="nav justify-content-end text-dark">
+				<li><a href="about.html" class="text-dark fs-1 fw-bold">About Us</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="text-dark fs-1 fw-bold">
+						Enrollment
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item text-dark" href="cargoen.html">Cargo Insurance</a>
+						<a class="dropdown-item text-dark" href="Passenger.html">Passengers Insurance</a>
+						<a class="dropdown-item text-dark" href="jetenrolment.html">Jets Insurance</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="text-dark fs-1 fw-bold">
+						claim
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+						<a class="dropdown-item text-dark" href="cargoclaim.html">Cargo Insurance</a>
+						<a class="dropdown-item text-dark" href="Passengerclaim.html">Passengers Insurance</a>
+						<a class="dropdown-item text-dark" href="jetclaim.html">Jets Insurance</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown" class="text-dark fs-1 fw-bold">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="text-dark fs-1 fw-bold">
+						Other
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+						<a class="dropdown-item text-dark" href="healtheno.html">Health register</a>
+						<a class="dropdown-item text-dark" href="healthclaim.html">Health Claim</a>
+						
+					</div>
+				</li>
+				
+				<li><a href="contact.html" class="text-dark fs-1 fw-bold">Contact Us</a></li>
+				<li><a href="profile.html" class="text-dark fs-1 fw-bold">My Profile</a></li>
+			</ul>
+		</div>
+	</nav>
+<h1 style="text-align: center; font-style: italic; font-size: 50px;">Welcome to Passenger plane claim Insurance</h1>
+<form action="PassengerServlet" method="get">
+<label for="plainid">please enter the plane id</label><br>
+<input type="text" name="Plane_id"><br>
+<label for="damage">please select the damage type</label><br>
+<select id="damage" name="Damage">
+  <option value="Minor">Minor damage</option>
+  <option value="Partial">partial</option>
+  <option value="Full">Full</option>
+</select><br>
+<button type="submit" >submit</button>
+</form>
+</body>
+</html>

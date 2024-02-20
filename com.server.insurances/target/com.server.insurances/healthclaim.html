@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="claim.css">
+<title>health insurance claim</title>
+</head>
+<body>
+<style>
+body{
+background-image:url('https://www.manulife.com.sg/en/insights/differences-between-life-and-health-insurance/_jcr_content/root/responsivegrid_641029165/responsivegrid_1181060330/responsivegrid_62007/responsivegrid_1872166159/responsivegrid/image.coreimg.82.1000.jpeg/1672801603204/gettyimages-1224813509.jpeg');
+background-repeat : no-repeat;
+background-size : 100%  100%;
+background-attachment: fixed;
+text-align: center;
+}
+</style>
+<h1 style="text-align: center; font-style: italic; font-size: 50px;">Welcome to Passenger plane claim Insurance</h1>
+<form action="healthclaim" method="get">
+<label for="policyname">please enter the policy id</label><br>
+<input type="text" name="policyid"><br>
+<label for="damage">please select the damage type</label><br>
+<select id="damage" name="Damage">
+  <option value="Minor">Minor damage</option>
+  <option value="Partial">partial</option>
+ 
+  <option value="Full">Full</option>
+</select><br>
+<button type="submit" >submit</button>
+</form>
+</body>
+</html>
